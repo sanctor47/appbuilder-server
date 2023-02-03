@@ -10,7 +10,7 @@ app.use(cors());
 const database = async () => {
   try {
     // Replace database value in the .env file with your database config url
-    const DATABASE = "mongodb://localhost:27017/FeatureDatabase";
+    const DATABASE = "mongodb+srv://test:9uXyM.kN$Rf!8u-@cluster0.po862zr.mongodb.net/?retryWrites=true&w=majority";
 
     await mongoose.connect(DATABASE, {
       //   useFindAndModify: false,
